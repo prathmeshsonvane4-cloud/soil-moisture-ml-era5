@@ -1,0 +1,17 @@
+# Raw inputs are large and freely downloadable. See README for sources.
+AMF_*.csv
+AMF_*.xlsx
+reanalysis-era5-land-*.csv
+*.h5
+*.he5
+*.nc
+
+# Keep the schema sample
+!data/era5_land_soil_water_SAMPLE.csv
+
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini
+.DS_Store
